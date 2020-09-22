@@ -61,7 +61,7 @@ class LeNet(nn.Module):
         ### 第六层：全连接层fc2
         self.layer6 = nn.Sequential(nn.Linear(120,84))
         
-        ### 第器层：全连接层fc3
+        ### 第七层：全连接层fc3
         self.layer7 = nn.Sequential(nn.Linear(84,10)) # 输出10类
         
         # 网络前向传播过程
